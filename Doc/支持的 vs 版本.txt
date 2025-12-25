@@ -1,0 +1,4 @@
+确保中文正常显示的方式：
+
+使用 u8"中文xxx"，该方式支持 vs2015 及以上版本。
+使用 #pragma execution_character_set("utf-8")，该方式支持 vs 2013 及以上版本。
